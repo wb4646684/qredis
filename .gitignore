@@ -1,0 +1,5 @@
+# IDE生成文件
+.idea/
+
+# Apple Macbook OSX 生成文件
+.DS_Store
