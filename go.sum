@@ -1,0 +1,8 @@
+github.com/go-redis/redis v6.15.2+incompatible h1:9SpNVG76gr6InJGxoZ6IuuxaCOQwDAhzyXg+Bs+0Sb4=
+github.com/go-redis/redis v6.15.2+incompatible/go.mod h1:NAIEuMOZ/fxfXJIrKDQDz8wamY7mA7PouImQ2Jvg6kA=
+github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
+github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/redis-go/redcon v0.2.0 h1:hv7msy2QlmkSbImtkTR7IaYGBRzUhJjmjzU/r+9Uyvk=
+github.com/redis-go/redcon v0.2.0/go.mod h1:tRS+pqvUi4CdCDkf+qytjfwToeMHPxBIHWR15HC2ZUo=
+github.com/redis-go/redis v0.0.0-20190129163758-e7bb29b08926 h1:cqilXaNY0iY2Bur7XiulEtvKdzEdXeVcaRGP+5i4ML8=
+github.com/redis-go/redis v0.0.0-20190129163758-e7bb29b08926/go.mod h1:cplKPsu41XF1ayYjPBI69+rhEbnDv4xS4Im/c28NhwI=
