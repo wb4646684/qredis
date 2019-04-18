@@ -21,6 +21,9 @@ func main() {
 	redisDB := redis.NewClient(&redis.Options{
 		Addr: redisHost,
 	})
+	if _, err := redisDB.Ping().Result(); err != nil {
+		panic(err)
+	}
 
 	switch action {
 	case "scan":
@@ -28,6 +31,7 @@ func main() {
 	case "delete":
 		fmt.Println(DeleteKey(ScanKey(redisHost, keyName, scanCount, redisDB), redisDB))
 	}
+	defer redisDB.Close()
 }
 
 func ScanKey(redisHost string, keyName string, scanCount int64, redisDB *redis.Client) *[]string {
